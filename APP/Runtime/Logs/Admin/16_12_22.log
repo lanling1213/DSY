@@ -1,0 +1,30 @@
+[ 2016-12-22T22:41:15+08:00 ] ::1 /lan/DSY/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-12-22T22:43:16+08:00 ] ::1 /lan/DSY/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'tp'
+
+[ 2016-12-22T22:43:45+08:00 ] ::1 /lan/DSY/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 1146:Table 'bbs.dsy_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dsy_config`
+ERR: 1146:Table 'bbs.dsy_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dsy_config`
+
